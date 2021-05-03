@@ -44,10 +44,17 @@ function draw() {
   dustbinObj.display();
   paperObject.display();
 
-	if (keyCode===UP_ARROW){
-		Matter.Body.applyForce(paperObject.body,paperObject.body.position,{x:3,y:-4}); 
-	}
+	
 
  drawSprites();
 }
+
+function keyPressed(){
+	
+	if (keyCode===UP_ARROW){
+		Matter.Body.applyForce(paperObject.body,paperObject.body.position,{x:92,y:-98}); 
+	}
+
+}
+	
 
