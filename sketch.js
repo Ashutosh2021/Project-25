@@ -45,7 +45,7 @@ function draw() {
   paperObject.display();
 
 	if (keyCode===UP_ARROW){
-		Matter.Body.applyForce(paperObject.body,paperObject.body.position,{x:50,y:100}); 
+		Matter.Body.applyForce(paperObject.body,paperObject.body.position,{x:3,y:-4}); 
 	}
 
  drawSprites();
